@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Info</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .movie-info {
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Movie Information</h1>
+
+  <h2>Search for Movies</h2>
+  <input type="text" id="movie-query" placeholder="Enter movie title..." />
+  <button onclick="searchMovies()">Search</button>
+
+  <div id="movie-results" class="movie-info">
+    <h2>Results</h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
